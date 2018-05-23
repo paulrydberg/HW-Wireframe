@@ -49,22 +49,60 @@ p, h1, {
     background: #ebebeb;
 }
 /*<!--Section Width-->*/
-.sectionwidth {
-    section: 495px;
-}
+
 
 .header {
 	background-color: #6c02e6
 }
 .nav {
-	background-color: #15e602
+    background-color: #15e602;
+    column-count: 10;
+    column-rule-width: 1px;
+    column-rule-color: rgb(0, 0, 0);
+    column-rule-style: solid;
+    column-width: 1px;
 }
 
 
+.column {
+    column-count: 2;
+    background-color: #aeffcd;
+    column-rule-width: 0px;
+    column-rule-color: rgb(0, 0, 0);
+    column-rule-style: solid;
+    column-width: 1px;
+}
 
 
+.smallerwidth {
+    width: 495px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.evensmallerwidth {
+    width: auto;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
+.footer {
+    width: 960px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.container960 {
+    width: 960px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 #funText {
 	color: black;
