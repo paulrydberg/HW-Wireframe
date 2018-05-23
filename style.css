@@ -1,38 +1,33 @@
 /*<!--Fonts-->*/
 .bodyfontall {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    color: #777;
-    background: #777;
-    width: 960px;
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
     font-size: 18px;
 }
 .arial {
     font-family: Arial;
-    color: #777;
-    background: #777;
-    width: 960px;
-    font-size: 18px;
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+    font-size: 22px;
 }
 .neue {
     font-family: "Helvetica Neue";
-    color: #777;
-    background: #777;
-    width: 960px;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-size: 18px;
 }
 .helvetica {
     font-family: Helvetica;
-    color: #777;
-    background: #777;
-    width: 960px;
-    font-size: 18px;
+    color: rgb(255, 0, 0);
+    background: rgb(73, 1, 1);
+    font-size: 16px;
 }
 .sans {
     font-family: sans-serif;
-    color: #777;
-    background: #777;
-    width: 960px;
-    font-size: 18px;
+    color: rgb(0, 255, 0);
+    background: rgb(80, 80, 80);
+    font-size: 30px;
 }
 /*<!--Background color -- Header, Nav, Section, Aside, and Footer -->*/
 .generalbg {
@@ -50,6 +45,10 @@ p, h1, {
 }
 /*<!--Section Width-->*/
 
+.rounded {
+    border-radius: 25px;
+}
+
 
 .header {
 	background-color: #6c02e6
@@ -61,6 +60,8 @@ p, h1, {
     column-rule-color: rgb(0, 0, 0);
     column-rule-style: solid;
     column-width: 1px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -71,6 +72,8 @@ p, h1, {
     column-rule-color: rgb(0, 0, 0);
     column-rule-style: solid;
     column-width: 1px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -97,24 +100,8 @@ p, h1, {
     text-align: center;
 }
 
-.container960 {
-    width: 960px;
-    border: 1px solid black;
-    margin-left: auto;
-    margin-right: auto;
-}
 
-#funText {
-	color: black;
-	font-size: 24px;
-	font-family: 'Roboto Slab', serif;
-}
 
-#box {
-	height: 100px;
-	width: 100px;
-	margin:auto;
-}
 
 .jumbotron {
 	background-color: #428bca
